@@ -197,3 +197,29 @@ a:hover {
     color: white!important;
 }
 
+
+
+.btn6{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: #f1f1f1;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #2DB140;
+    overflow: hidden;
+    position: relative;
+}
+.btn6::before{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #2DB140;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+    z-index: -1;
+    color: white!important;
+}
